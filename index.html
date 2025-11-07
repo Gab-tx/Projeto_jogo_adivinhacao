@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de advinhação</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Desafio do Número Misterioso</h1>
+    
+    <div class="container">
+
+    <h4 id="titulo"> O número de tentativas restante é: <strong id="numeroAdvinhacoesRestante"></strong></h4>
+    <input id='numero' type="text">
+    <button id="advinhar"> Advinhar</button>
+    <button id="reset" onclick="reset()"> Resetar</button>
+
+    <p id="resultado"></p>
+    </div>
+
+    <section class="historico">
+        <div>
+            <ul id="listaHistorico">
+
+            </ul>
+        </div>
+
+    </section>
+
+</body>
+</html>
